@@ -71,7 +71,7 @@ Ontwerp van een schakelingen om een robotwagentje aan te sturen. Dit is opgedeel
 
 ## Blokschema
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/blokschema_ss.drawio.png)
 
 
 ## Componentenlijst:
@@ -231,11 +231,11 @@ Winkel: https://www.tinytronics.nl/shop/nl/sensoren/afstand/ultrasonische-sensor
 
 ### State Diagram
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/statediagram_ss.png)
 
 ### Flowchart
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/smartcar_flow.png)
 
 ## Planning
 
