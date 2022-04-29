@@ -191,23 +191,23 @@ Winkel: https://www.tinytronics.nl/shop/nl/sensoren/afstand/ultrasonische-sensor
 
 **ESP32**
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/schema_sturing.jpg)
 
 **ATmega328**
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/schema_sensorbord.jpg)
 
 
 ## PCB Ontwerp
 
 **ESP32**
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/pcb_sturing.jpg)
 
 
 **ATmega328**
 
-![image](TODO)
+![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/pcb_sensorbord.jpg)
 
 # Software Analyse
 
