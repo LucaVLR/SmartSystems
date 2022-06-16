@@ -30,6 +30,8 @@ Via 8 richtingsknoppen kan men de auto laten rijden.
 
 # ATSense
 
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/schema_sensorbord.jpg?raw=true)
+
 Om automatisch te kunnen rijden is er allerhande sensor data nodig. Deze data wordt opgehaald uit 3 sensoren:
  - Ultrasone afstandsensor
  - IR afstandsensor
@@ -41,11 +43,25 @@ Het Arduino programma voor dit sensor bordje is [hier](./ATSense/ATSense.ino) te
 Voor de IR sensoren worden standaard analoog en digitale pinoperaties gebruikt. Om het inlezen van de ultrasone sensor makkelijk te maken wordt gebruik gemaakt van de 'NewPing' bibliotheek. Deze bibliotheek doet al het werk van een puls te sturen en de responsetijd te meten voor ons en zet de data om in centimeter.
 
 
-# Manueel rijden
+# SmartCarDrive
+Programma is [hier](./SmartCarDrive/SmartCarDrive.ino) te vinden.
+## Manueel rijden
+
+Wanneer we manueel rijden, blijven we telkens de voorafgaande instructie uitvoeren tot er een nieuwe aankomt. We slagen dus de richting en snelheid op om ze te blijven gebruiken. Wanneer een nieuw MQTT bericht binnenkomt, overwriten we simpelweg deze data.
+
+Afhanged van de richting dat we in willen rijden, moeten de twee motoren verschillend van elkaar draaien. Om bijvoorbeeld naar voor te rijden en tegelijk links te draaien, moet de linkermotor trager rijden dan de rechtermotor. Een simpele functie bespaard ons heel wat regels code en maakt het aansturen van de motoren simpel en leesbaar. Aangezien we geen sensoren gebruiken tijdens dit proces, is er geen nood om rekening te houden met obstakels.
 
 
-# Automatisch rijden
+## Automatisch rijden
 
+Het algoritme om automatisch te rijden is redelijk simpel te vatten met volgende flowchart.
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/automatisch_rijden_algoritme.png?raw=true)
 
-# Struikelblokken
+Met de afstandsensoren kunnen we detecteren of een obstakel te dicht bij is. Indien dit waar is, kunnen we niet verder rijden en zetten we de motoren stil.
 
+Indien dit niet is, kunnen we de status van de lijnvolgers bekijken. Met een simpele switch statement kunnen we de 3 condities opsplitsen:
+ - Te ver naar links
+ - In het midden
+ - Te ver naar rechts
+
+Afhangend van de status moeten we gewoon recht vooruit rijden of wat keren om op de lijn te blijven.
