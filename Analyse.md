@@ -9,11 +9,6 @@ Ontwerp van een schakelingen om een robotwagentje aan te sturen. Dit is opgedeel
 
 # As-Is situatie
 
-### MotorWagen: 
-
-![image](TODO)
-
-
 ### Specificaties / Situation As Is:
 
 - Voltage Regulator LM7805 through hole
@@ -191,23 +186,23 @@ Winkel: https://www.tinytronics.nl/shop/nl/sensoren/afstand/ultrasonische-sensor
 
 **ESP32**
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/schema_sturing.jpg)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/schema_sturing.jpg?raw=true)
 
 **ATmega328**
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/schema_sensorbord.jpg)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/schema_sensorbord.jpg?raw=true)
 
 
 ## PCB Ontwerp
 
 **ESP32**
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/pcb_sturing.jpg)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/pcb_sturing.jpg?raw=true)
 
 
 **ATmega328**
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/pcb_sensorbord.jpg)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/pcb_sensorbord.jpg?raw=true)
 
 # Software Analyse
 
@@ -231,11 +226,11 @@ Winkel: https://www.tinytronics.nl/shop/nl/sensoren/afstand/ultrasonische-sensor
 
 ### State Diagram
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/statediagram_ss.png)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/statediagram_ss.png?raw=true)
 
 ### Flowchart
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/smartcar_flow.png)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/smartcar_flow.png?raw=true)
 
 ## Planning
 
