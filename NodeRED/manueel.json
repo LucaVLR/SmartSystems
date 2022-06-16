@@ -1,0 +1,374 @@
+[
+    {
+        "id": "c5b3620d6b05de62",
+        "type": "tab",
+        "label": "Manueel",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2fd51a7f3af0c251",
+        "type": "mqtt out",
+        "z": "c5b3620d6b05de62",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "6be8ec108bd19040",
+        "x": 790,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6c3026113497cc02",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Left-forward",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "LEFT-FW",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "links-vooruit",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "ab357409b8a06688",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Forward",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "FORWARD",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "vooruit",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 480,
+        "y": 220,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "21b0e52c5c0f5784",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Right-forward",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "RIGHT-FW",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "rechts-vooruit",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 460,
+        "y": 260,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "4ede01bcb3e1b5cd",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Left",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "LEFT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "links",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "08ae7da487474991",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Stop",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "STOP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 490,
+        "y": 360,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "20be072226a8b291",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Right",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "RIGHT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "rechts",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "1a6fecdb5a86d691",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Left-back",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "LEFT-BACK",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "links-achter",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 480,
+        "y": 460,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "65e3c5163c50eb95",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Backwards",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "BACKWARD",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "achteruit",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 470,
+        "y": 500,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "0e67b0429d874c8a",
+        "type": "ui_button",
+        "z": "c5b3620d6b05de62",
+        "name": "Right-back",
+        "group": "64c72f076e87cd78",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "RIGHT-BACK",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "rechts-achter",
+        "payloadType": "str",
+        "topic": "dir",
+        "topicType": "str",
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "d3691ea4ee7e8d1f",
+        "type": "ui_slider",
+        "z": "c5b3620d6b05de62",
+        "name": "Speed",
+        "label": "Snelheid",
+        "tooltip": "",
+        "group": "64c72f076e87cd78",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "speed",
+        "topicType": "str",
+        "min": "1",
+        "max": "100",
+        "step": 1,
+        "x": 490,
+        "y": 620,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "eac7f7bfd84c542c",
+        "type": "ui_switch",
+        "z": "c5b3620d6b05de62",
+        "name": "Standby",
+        "label": "Standby",
+        "tooltip": "",
+        "group": "64c72f076e87cd78",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "standby",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 480,
+        "y": 680,
+        "wires": [
+            [
+                "2fd51a7f3af0c251"
+            ]
+        ]
+    },
+    {
+        "id": "6be8ec108bd19040",
+        "type": "mqtt-broker",
+        "name": "broker",
+        "broker": "mqtt.luytsm.be",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "64c72f076e87cd78",
+        "type": "ui_group",
+        "name": "Manueel",
+        "tab": "1a75a4cbf354fc3a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1a75a4cbf354fc3a",
+        "type": "ui_tab",
+        "name": "SmartCar Controlepaneel",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
