@@ -1,4 +1,4 @@
 # SmartSystems
 
 ## Bekijk de analyse hier:
-[Analyse](../Analyse.md)
+[Analyse](./Analyse.md)
