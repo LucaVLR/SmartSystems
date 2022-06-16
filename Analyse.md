@@ -71,7 +71,7 @@ Ontwerp van een schakelingen om een robotwagentje aan te sturen. Dit is opgedeel
 
 ## Blokschema
 
-![image](https://raw.githubusercontent.com/LucaVLR/SmartSystems/main/Afbeeldingen/blokschema_ss.drawio.png)
+![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/blokschema_ss.drawio.png?raw=true)
 
 
 ## Componentenlijst:
