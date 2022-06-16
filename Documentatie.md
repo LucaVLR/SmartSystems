@@ -11,7 +11,7 @@
 
 Men bestuurt de auto met een NodeRED dashboard. Op dit dashboard kan men kiezen of manueel of automatisch gereden wordt.
 
-Indien men manueel wilt rijden, kan men de knoppen gebruiken om de auto in allerhande richtingen te laten rijden. In automatisch mode zal de auto automatisch lijnen volgen en bij een barriere wachten. Men kan de auto ook in standby zetten in eender welke mode.
+Indien men manueel wilt rijden, kan men de knoppen gebruiken om de auto in allerhande richtingen te laten rijden. In automatisch mode zal de auto automatisch lijnen volgen en bij een barriere wachten.
 
 We beginnen met het bespreken van het dashboard zelf, daarna zullen we verder ingaan in de werking van de twee Arduino programma's.
 
@@ -24,7 +24,6 @@ Op het dashboard zien we 3 onderdelen:
  - De configuratie voor manuele modus
  - De keuze tussen manueel en automatisch
 
-We kunnen, zoals vooraf besproken, de auto in standby zetten (motoren uit) via de standby knop.
 Met een snelheid selectie kan men kiezen hoe snel de auto rijd in manuele modus.
 Via 8 richtingsknoppen kan men de auto laten rijden.
 
