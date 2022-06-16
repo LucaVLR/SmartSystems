@@ -295,39 +295,6 @@
         ]
     },
     {
-        "id": "eac7f7bfd84c542c",
-        "type": "ui_switch",
-        "z": "c5b3620d6b05de62",
-        "name": "Standby",
-        "label": "Standby",
-        "tooltip": "",
-        "group": "64c72f076e87cd78",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "standby",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "x": 480,
-        "y": 680,
-        "wires": [
-            [
-                "2fd51a7f3af0c251"
-            ]
-        ]
-    },
-    {
         "id": "6be8ec108bd19040",
         "type": "mqtt-broker",
         "name": "broker",
