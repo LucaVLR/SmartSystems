@@ -19,13 +19,12 @@ We beginnen met het bespreken van het dashboard zelf, daarna zullen we verder in
 
 ![image](https://github.com/LucaVLR/SmartSystems/blob/main/Afbeeldingen/dashboard.png?raw=true)
 
-Op het dashboard zien we 3 onderdelen:
- - De configuratie voor automatische modus
+Op het dashboard zien we 2 onderdelen:
  - De configuratie voor manuele modus
  - De keuze tussen manueel en automatisch
 
-Met een snelheid selectie kan men kiezen hoe snel de auto rijd in manuele modus.
-Via 8 richtingsknoppen kan men de auto laten rijden.
+Met een snelheid selectie kan men kiezen hoe snel de auto rijd in manuele modus. Via 8 richtingsknoppen kan men de auto laten rijden.
+In automatische mode moet er niks aangepast of geconfigureerd worden door de gebruiker.
 
 
 # ATSense
